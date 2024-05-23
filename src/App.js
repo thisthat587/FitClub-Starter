@@ -9,15 +9,18 @@ import Testimonials from './components/Testimonials/Testimonials';
 function App() {
   return (
     <div className="App">
-      <Hero />
-      <Programs />
-      <Reasons />
-      <Plans />
-      <Testimonials />
-      <Join />
-      <Footer />
+      <div>
+
+        <Hero />
+        <Programs />
+        <Reasons />
+        <Plans />
+        <Testimonials />
+        <Join />
+        <Footer />
+      </div>
     </div>
-  );
+  )
 }
 
 export default App;

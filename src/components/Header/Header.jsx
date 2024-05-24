@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Header.css'
 import logo from '../../assets/logo.png'
 import Bars from '../../assets/bars.png'
-import { useScroll } from 'framer-motion'
+// import { useScroll } from 'framer-motion'
 import { Link } from 'react-scroll'
 const Header = () => {
 

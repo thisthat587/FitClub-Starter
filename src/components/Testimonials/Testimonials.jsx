@@ -11,16 +11,16 @@ const Testimonials = () => {
     const tlength = testimonialsData.length;
 
     return (
-        <div className="Testimonials">
+        <div className="Testimonials" id='testimonials'>
             <div className="left-t">
                 <span>Testimonials</span>
                 <span className='stroke-text'>What They</span>
                 <span>Say about Us</span>
                 <motion.span
                     key={selected}
-                    initial={{opacity:0, x: -100}}
-                    animate={{opacity: 1, x:0}}
-                    exit={{opacity:0, x:100}}
+                    initial={{ opacity: 0, x: -100 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    exit={{ opacity: 0, x: 100 }}
                     transition={transition}
                 >{testimonialsData[selected].review}
                 </motion.span>
